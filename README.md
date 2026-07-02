@@ -3,7 +3,7 @@ Welcome to my personal technology knowledge base.
 This repository contains my notes, documentation, experiments, and guides covering hardware, software, networking, servers, Linux, Windows, virtualization, and other technical topics.
 The goal of this wiki is to document what I learn, create a reference for future projects, and keep technical knowledge organized in one place.
 # Categories
-Hardware
+## Hardware
 CPUs
 Motherboards
 Storage
