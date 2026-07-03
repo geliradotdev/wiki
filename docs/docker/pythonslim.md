@@ -60,3 +60,22 @@ aplay -D plughw:1,0 /tmp/test.wav
 # TO ACCESS lama
 apt update && apt install -y iputils-ping
 ping -c 4 internal ip
+
+# network setup
+apt install -y iputils-ping curl net-tools dnsutils traceroute
+docker network create ai-net
+docker network connect ai-net ollama
+docker network connect ai-net pytools
+
+
+# loopings
+
+## activate using the root
+docker exec -d pytools bash -c "while true; do python3 /scripts/ping.py; sleep 30; done >/scripts/ping.log 2>&1"
+
+
+docker exec -it pytools tail -f /scripts/ping.log
+
+tail -f /scripts/ping.log
+
+

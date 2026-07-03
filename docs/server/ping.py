@@ -3,7 +3,7 @@ import tempfile
 import os
 import requests
 
-OLLAMA_URL = "http://192.168.1.31:11434/api/generate"
+OLLAMA_URL = "http://ollama:11434/api/generate"
 MODEL = "llama3.2:1b"
 
 PIPER_BIN = "/programs/piper/piper/piper"
