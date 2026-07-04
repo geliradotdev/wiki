@@ -10,10 +10,10 @@ sudo docker run -d \
   -e PGID=1000 \
   -e TZ=Asia/Manila \
   -p 8083:8083 \
-  -v /srv/<network-drive>/docker/calibre/config:/config \
-  -v /srv/<network-drive>/docker/calibre/books:/books \
+  -v /srv/dev-disk-by-uuid-3bf31d1c-0042-4cd3-b4ac-200ee0fc3205/docker/calibre-web/config:/config \
+  -v /srv/dev-disk-by-uuid-3bf31d1c-0042-4cd3-b4ac-200ee0fc3205/docker/calibre-web/books:/books \
   --restart unless-stopped \
-  lscr.io/linuxserver/calibre-web:latest
+  linuxserver/calibre-web:latest
 
 
 
@@ -28,6 +28,8 @@ sudo docker exec -it calibre-web sh
 
 
 # Download a used metadata.db 
+curl -L -o /books/metadata.db https://wiki.gelira.dev/metadata.db
+
 curl -L -o /books/metadata.db https://github.com/janeczku/calibre-web/raw/master/library/metadata.db
 
 

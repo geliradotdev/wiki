@@ -1,9 +1,13 @@
 [
   "ReadMe.md",
   "common-commands.md",
+  "docs/docker/bitwarden.md",
   "docs/docker/calibreweb.md",
+  "docs/docker/chromium.md",
   "docs/docker/jdownloader.md",
+  "docs/docker/jellyfin.md",
   "docs/docker/llama.md",
+  "docs/docker/netbootxyz.md",
   "docs/docker/nextcloud.md",
   "docs/docker/pihole.md",
   "docs/docker/portrainer.md",

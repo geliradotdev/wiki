@@ -1,7 +1,11 @@
 
 # Headline
 
-sudo docker run -d \
+
+
+
+
+docker run -d \
   --name portainer \
   --restart unless-stopped \
   -p 9443:9443 \
