@@ -65,14 +65,18 @@ Keep notes concise and easy to revisit.
 ### Virtualization
 ### Self-hosting
 ### Power-efficient computing
+
+
 # License
 This repository is intended for educational purposes. Feel free to use the information as a reference for your own projects.
 This gives visitors (including future you) a clear overview and makes it easy to navigate the rest of the wiki.
 
+
+# Links
+- https://github.com/geliradotdev/wiki
+- https://www.youtube.com/@geliradotdev
 # Disclaimer
 
-## Most of the documentation in this repository is generated with the assistance of AI. The content is based on my prompts, learning objectives, testing, and personal understanding, then organized into a format that's easy to reference later.
+Most of the documentation in this repository is generated with the assistance of AI. The content is based on my prompts, learning objectives, testing, and personal understanding, then organized into a format that's easy to reference later. While I strive for accuracy, AI-generated content can contain mistakes, outdated information, or oversimplified explanations. Always verify critical information—especially anything related to security, production systems, hardware, or data integrity—using official documentation or trusted sources.
 
-## While I strive for accuracy, AI-generated content can contain mistakes, outdated information, or oversimplified explanations. Always verify critical information—especially anything related to security, production systems, hardware, or data integrity—using official documentation or trusted sources.
-
-## This repository should be treated as a personal knowledge base and learning resource rather than an authoritative reference.
+This repository should be treated as a personal knowledge base and learning resource rather than an authoritative reference.
