@@ -28,9 +28,9 @@ sudo docker exec -it calibre-web sh
 
 
 # Download a used metadata.db 
-curl -L -o /books/metadata.db https://wiki.gelira.dev/metadata.db
 
-curl -L -o /books/metadata.db https://github.com/janeczku/calibre-web/raw/master/library/metadata.db
+
+curl -L -o metadata.db https://github.com/janeczku/calibre-web/raw/master/library/metadata.db
 
 
 # persmissions
